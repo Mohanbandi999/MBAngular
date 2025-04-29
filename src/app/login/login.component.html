@@ -1,4 +1,8 @@
-<div class="login-container">
+<div class="login-wrapper">
+  <div class="image-container">
+    <img src="assets/new.webp" alt="Login Image bn">
+  </div>
+  <div class="login-container">
     <h2>Login</h2>
     <form (ngSubmit)="onLogin()">
       <input type="text" placeholder="Username" [(ngModel)]="username" name="username" required />
@@ -8,3 +12,12 @@
     <div *ngIf="errorMessage" class="error">{{ errorMessage }}</div>
     <p>Sample Credentials: <br> Username: <b>admin</b> | Password: <b>admin123</b></p>
   </div>
+</div>
+
+
+
+ <!-- <img src='BBB.png' >
+    <img src="BBB.png">
+    <img src="https://angular.io/assets/images/logos/angular/angular.png" width="500" height="500" alt="Angular Logo">
+    <img src="BBB.png" alt="Login Image">
+    <img src="new.webp" alt="Login Image"> -->

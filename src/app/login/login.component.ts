@@ -28,6 +28,7 @@ export class LoginComponent implements OnInit{
       alert('Login Successful!');
       localStorage.setItem('isLoggedIn', 'true'); // Set login status in local storage
       this.router.navigate(['/main/dashboard']);
+     //this.router.navigate(['Jobseekers']);
       // You can navigate to another page here if needed
     } else {
       localStorage.setItem('isLoggedIn', 'false'); // Set login status in local storage

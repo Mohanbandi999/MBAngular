@@ -1,0 +1,42 @@
+
+  .login-dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .login-dropdown a {
+    cursor: pointer;
+    color: #555;
+    font-weight: 500;
+    text-decoration: none;
+    padding: 8px;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #222;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 8px;
+    margin-top: 8px;
+  }
+  
+  .dropdown-menu a {
+    color: white;
+    padding: 12px 16px;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #333;
+  }
+  
+  /* Show menu on hover */
+  .login-dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
+  
