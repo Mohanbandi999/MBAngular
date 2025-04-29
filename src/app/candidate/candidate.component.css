@@ -1,0 +1,33 @@
+:host {
+    display: block;
+    height: 100vh;
+    background: url('/assets/888.jpg') no-repeat center center;
+    background-size: cover;
+  }
+  
+  .login-container.company {
+    background: rgba(255, 255, 255, 0.9); /* slight white overlay for readability */
+    padding: 40px;
+    max-width: 400px;
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+  }
+
+  .background-wrapper {
+    background-image: url('/assets/company-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container.company {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+  }
+  

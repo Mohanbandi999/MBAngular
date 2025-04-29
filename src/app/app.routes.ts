@@ -6,6 +6,8 @@ import { authGuard } from './auth.guard';
 import { restrictGuard } from './restrict.guard';
 import { JobseekersComponent } from './jobseekers/jobseekers.component';
 import { CandidateComponent } from './candidate/candidate.component';
+import { ContractorComponent } from './contractor/contractor.component';
+import { CompanyComponent } from './company/company.component';
 
 export const routes: Routes = [
     {path: '', component: ChartComponent, pathMatch: 'full'},  
@@ -22,5 +24,7 @@ export const routes: Routes = [
     {path: '**', redirectTo: 'login'} ,
     {path: 'Jobseekers', component: JobseekersComponent, pathMatch: 'full'}, 
     {path: 'Candidate', component: CandidateComponent, pathMatch: 'full'},
+    {path: 'Contractor', component: ContractorComponent, pathMatch: 'full'},
+    {path: 'Company', component: CompanyComponent, pathMatch: 'full'},
 
 ];
