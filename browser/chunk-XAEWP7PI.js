@@ -1,1 +1,0 @@
-import{b as o,c as n,d as a,e as s,g as r,j as i}from"./chunk-2HXUEDBZ.js";var p=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-dashboard"]],decls:3,vars:0,template:function(e,d){e&1&&(n(0,"p"),r(1,"This is Dashboard"),a(),s(2,"router-outlet"))},dependencies:[i],encapsulation:2})};export{p as DashboardComponent};
